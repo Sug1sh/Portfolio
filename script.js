@@ -1,6 +1,3 @@
-// ===============================
-// Sticky Navbar Shadow
-// ===============================
 
 const navbar = document.querySelector("nav");
 
@@ -13,11 +10,6 @@ window.addEventListener("scroll", () => {
     }
 
 });
-
-// ===============================
-// Active Navigation
-// ===============================
-
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav ul li a");
 
@@ -51,10 +43,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ===============================
-// Smooth Scroll for Nav Links
-// ===============================
-
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -64,10 +52,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
         }
     });
 });
-
-// ===============================
-// Fade Animation
-// ===============================
 
 const observer = new IntersectionObserver((entries) => {
 
@@ -91,10 +75,6 @@ document.querySelectorAll(
     observer.observe(element);
 
 });
-
-// ===============================
-// Footer Year
-// ===============================
 
 const footer = document.querySelector("footer p");
 if (footer) {
