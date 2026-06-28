@@ -1,158 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sugish Devkota | Portfolio</title>
+    <title>Sugish Devkota | Cybersecurity Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
     <!-- Font Awesome -->
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-<nav>
+    <!-- ================= NAVBAR ================= -->
 
-<div class="logo">
-    Sugish.
-</div>
+    <nav>
 
-<ul>
+        <div class="logo">
+            <span>Sugish</span>.me
+        </div>
 
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-</ul>
+    </nav>
 
-</nav>
+    <!-- ================= HERO ================= -->
 
+    <section class="hero" id="home">
 
-<section id="home">
+        <div class="hero-content">
 
-<div class="hero">
+            <h1>
+                I'm <span>Sugish Devkota</span>
+            </h1>
 
-<h1>Sugish Devkota</h1>
+            <h2>Cybersecurity Student</h2>
 
-<h2>Cybersecurity Enthusiast</h2>
+            <p>
+                BCA Student at Birendra Multiple Campus, Nepal.
+                Passionate about SOC Operations, Blue Teaming,
+                Threat Hunting, Incident Response,
+                Vulnerability Assessment and Bug Bounty Hunting.
+            </p>
 
-<h3>Aspiring Security Researcher</h3>
+            <div class="hero-buttons">
 
-<p>
-Passionate about defensive security, Security Operations Center (SOC),
-web application security, and continuous learning through practical
-projects and hands-on experience.
-</p>
+                <a href="#tools" class="btn">
+                    Explore Skills
+                </a>
 
-<a href="#about" class="btn">Explore My Journey</a>
+                <a href="#contact" class="btn2">
+                    Contact Me
+                </a>
 
-</div>
+            </div>
 
-</section>
+            <div class="badges">
 
-<section id="about">
+                <span>SOC</span>
+                <span>Blue Team</span>
+                <span>Bug Bounty</span>
 
-<h2>About Me</h2>
+            </div>
 
-<p>
+        </div>
 
-I am currently pursuing a Bachelor of Computer Applications (BCA)
-at Birendra Multiple Campus.
+        <div class="hero-image">
 
-I am passionate about cybersecurity with a strong interest in
-defensive security, Security Operations Center (SOC),
-web application security, Linux, cloud technologies,
-and continuous learning through practical projects.
+            <!-- ✅ FIXED: Changed profile.jpg to profile1.jpg -->
+            <img src="assets/profile1.jpg" alt="Sugish Devkota - Cybersecurity Student">
 
-My goal is to build strong technical skills while contributing
-to a safer digital world through responsible security research.
+        </div>
 
-</p>
+    </section>
 
-</section>
+    <!-- ================= ABOUT ================= -->
 
-<section id="education">
+    <section id="about">
 
-<h2>Education</h2>
+        <h2 class="title">About Me</h2>
 
-<div class="card">
+        <p class="about">
+            Hello! I'm Sugish Devkota, a Bachelor of Computer Applications (BCA)
+            student from Birendra Multiple Campus.
+            <br><br>
+            I enjoy learning Defensive Cybersecurity, Security Operations Center (SOC),
+            Incident Response, Threat Detection, Vulnerability Assessment and
+            Web Application Security.
+            <br><br>
+            My goal is to become a professional SOC Analyst while continuing
+            to improve my Bug Bounty skills through practical learning.
+        </p>
 
-<h3>
+    </section>
 
-Bachelor of Computer Applications (BCA)
+    <!-- ================= SECURITY TOOLS ================= -->
 
-</h3>
+    <section id="tools">
 
-<p>
+        <h2 class="title">Security Tools</h2>
 
-Birendra Multiple Campus
+        <div class="tool-icons">
 
-</p>
+            <img src="assets/wireshark.png" alt="Wireshark logo" title="Wireshark">
+            <img src="assets/suricata.jpg" alt="Suricata logo" title="Suricata">
+            <img src="assets/zeek.png" alt="Zeek logo" title="Zeek">
+            <img src="assets/nmap.png" alt="Nmap logo" title="Nmap">
+            <img src="assets/netcat.jpg" alt="Netcat logo" title="Netcat">
+            <img src="assets/wazuh.png" alt="Wazuh logo" title="Wazuh">
+            <img src="assets/crowdstrike.png" alt="CrowdStrike logo" title="CrowdStrike">
+            <img src="assets/paloalto.png" alt="Palo Alto logo" title="Palo Alto">
+            <img src="assets/f5.png" alt="F5 WAF logo" title="F5 WAF">
+            <img src="assets/metasploitjpg.jpg" alt="Metasploit logo" title="Metasploit">
+            <img src="assets/burpsuite.png" alt="Burp Suite logo" title="Burp Suite">
 
-<p>
+        </div>
 
-Current Student
+    </section>
 
-</p>
+    <!-- ================= LANGUAGES ================= -->
 
-</div>
+    <section id="languages">
 
-</section>
+        <h2 class="title">Languages</h2>
 
+        <div class="icon-grid">
 
-<section id="skills">
+            <img src="assets/html.png" alt="HTML logo" title="HTML">
+            <img src="assets/css1.png" alt="CSS logo" title="CSS">
+            <img src="assets/c.png" alt="C logo" title="C">
+            <img src="assets/java.png" alt="Java logo" title="Java">
+            <img src="assets/javascript.png" alt="JavaScript logo" title="JavaScript">
+            <img src="assets/python.png" alt="Python logo" title="Python">
+            <img src="assets/mysql.png" alt="MySQL logo" title="MySQL">
+            <img src="assets/linux.jpg" alt="Linux logo" title="Linux">
+            <img src="assets/php.jpg" alt="PHP logo" title="PHP">
 
-<h2>Skills</h2>
+        </div>
 
-<p>
+    </section>
 
-Programming Languages • Linux • Networking • Web Security • Docker • Azure
+    <!-- ================= CONTACT ================= -->
 
-</p>
+    <section id="contact">
 
-</section>
+        <h2 class="title">Let's Connect</h2>
 
+        <p class="contact-text">
+            Feel free to connect with me through any of the platforms below.
+        </p>
 
-<section id="projects">
+        <div class="socials">
 
-<h2>Projects</h2>
+            <a href="https://github.com/Sug1sh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
 
-<p>
+            <a href="https://www.linkedin.com/in/sugish-devkota-63a2a9341/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
 
-Projects will appear here.
+            <a href="https://www.facebook.com/sugish.devkota.2025/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
 
-</p>
+            <a href="https://www.instagram.com/sug_ish7/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
 
-</section>
+            <a href="mailto:sugishdevkota17@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
 
+        </div>
 
-<section id="contact">
+    </section>
 
-<h2>Contact</h2>
+    <!-- ================= FOOTER ================= -->
 
-<p>
+    <footer>
 
-GitHub
+        <p>
+            © 2025 Sugish Devkota • Built with HTML, CSS & JavaScript
+        </p>
 
-LinkedIn
+    </footer>
 
-Email
-
-</p>
-
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
